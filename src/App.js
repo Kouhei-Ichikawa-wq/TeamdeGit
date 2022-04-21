@@ -6,12 +6,14 @@ import Button from '@mui/material/Button';
 import { SatoTop } from './components/sato/SatoTop';
 import { WadaTop } from './components/wada/WadaTop';
 import { HayashiTop } from './components/hayashi/HayashiTop';
+import { IchikawaTop } from './components/ichikawa/IchikawaTop';
 
 export const App = () => {
   const obj = [
     { id:1, lin:WadaTop,eventName:"和田"},
     { id:2, lin:SatoTop,eventName:"佐藤"},
-    { id:2, lin:HayashiTop,eventName:"林"},
+    { id:3, lin:HayashiTop,eventName:"林"},
+    { id:4, lin:IchikawaTop,eventName:"市川"},
   ];
 
   const [view, setView] = useState(WadaTop);
