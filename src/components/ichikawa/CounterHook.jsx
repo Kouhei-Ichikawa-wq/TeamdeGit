@@ -1,6 +1,5 @@
 import { useState } from "react";
 
-
 export const useCounter = (initialCount) =>{
     const [count, setCount] = useState(initialCount);
 
@@ -21,8 +20,6 @@ export const useCounter = (initialCount) =>{
 
     return {count,countUpHandle,countDownHandle,countResetHandle};
 }
-
-
 
 export const CounterHook = () =>{
     const INITIAL_COUNT = 0;
