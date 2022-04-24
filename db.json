@@ -13,6 +13,6 @@
     { "id": 1,"content":"Create Reactをインストールする", "done":true },
     { "id": 2,"content":"JSON SERVERを作る", "done":false },
     { "id": 3,"content":"AXIOSを勉強する", "done":false },
-    { "id": 4,"content":"Chakuro UIをぶっ壊す", "done":false }
+    { "id": 4,"content":"Chakuro UIをやりきる", "done":false }
   ]
 }
