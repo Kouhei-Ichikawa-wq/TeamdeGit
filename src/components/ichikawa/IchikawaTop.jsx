@@ -1,12 +1,12 @@
 import { CounterHook } from './CounterHook.jsx';
-import { Kaihatsu } from './Kaihatsu.jsx';
+import { TodoKaihatsu } from './TodoKaihatsu/TodoKaihatsu.jsx';
 
 export const IchikawaTop = () =>{
     return(
         <>
             <span>ビンゴ</span>
             <CounterHook/>
-            <Kaihatsu/>
+            <TodoKaihatsu/>
         </>
     );
 }

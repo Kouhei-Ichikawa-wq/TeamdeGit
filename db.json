@@ -1,18 +1,46 @@
 {
   "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
   ],
-
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
   ],
-
-  "profile": { "name": "typicode" },
-
+  "profile": {
+    "name": "typicode"
+  },
   "todos": [
-    { "id": 1,"content":"Create Reactをインストールする", "done":true },
-    { "id": 2,"content":"JSON SERVERを作る", "done":false },
-    { "id": 3,"content":"AXIOSを勉強する", "done":false },
-    { "id": 4,"content":"Chakuro UIをやりきる", "done":false }
+    {
+      "id": 1,
+      "content": "Create Reactをインストールする",
+      "done": false
+    },
+    {
+      "id": 2,
+      "content": "JSON SERVERを作る",
+      "done": true
+    },
+    {
+      "id": 3,
+      "content": "AXIOSを勉強する",
+      "done": false
+    },
+    {
+      "id": "01G1T4WYHF06DHMXVYFM6YW5K3",
+      "content": "JSON解析",
+      "done": false
+    },
+    {
+      "id": "01G1T5QYP9D25678EXVDCFR9HF",
+      "content": "チャクラUIを実装する",
+      "done": false
+    }
   ]
 }
