@@ -24,4 +24,4 @@ npm install react-router-dom --save --force
 
 <動かし方>
 npm start
-json-server -w .\db.json -p 3001
+npm run start_db

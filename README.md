@@ -1,3 +1,7 @@
+#動かし方
+npm start
+npm run start_db
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

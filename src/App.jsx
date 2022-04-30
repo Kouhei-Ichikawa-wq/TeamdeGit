@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
-import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
+import { Button } from '@chakra-ui/react';
+import { Stack } from '@chakra-ui/react';
 
 import { SatoTop } from './components/sato/SatoTop';
 import { WadaTop } from './components/wada/WadaTop';
@@ -36,7 +36,7 @@ export const App = () => {
     <>
       <Stack spacing={2} direction="row">
         {objMap}
-      </Stack>
+      </Stack>      
       <hr/>
       {view}
     </>

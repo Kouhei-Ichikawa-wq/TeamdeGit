@@ -1,8 +1,18 @@
-export const TodoAdd = ({inputEl, hanldAddTodoListItem}) =>{
+import { Textarea,Button } from "@chakra-ui/react";
+
+export const TodoAdd = ({placeholder,leftIcon,buttonText,inputEl, hanldAddTodoListItem}) =>{
     return(
         <>
-            <textarea ref={inputEl} />
-            <button onClick={hanldAddTodoListItem}>TODOを追加</button>
+            <Textarea
+                placeholder={placeholder}
+                bgColor="white"
+                mt="8"
+                borderColor="gray.400"
+                ref={inputEl} 
+            />
+            <Button onClick={hanldAddTodoListItem} colorScheme="blue" leftIcon={leftIcon} mt="8">
+                {buttonText}
+            </Button>
         </>
     );
 };

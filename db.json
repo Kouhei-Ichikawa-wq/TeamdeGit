@@ -20,7 +20,7 @@
     {
       "id": 1,
       "content": "Create Reactをインストールする",
-      "done": false
+      "done": true
     },
     {
       "id": 2,
@@ -40,6 +40,11 @@
     {
       "id": "01G1T5QYP9D25678EXVDCFR9HF",
       "content": "チャクラUIを実装する",
+      "done": false
+    },
+    {
+      "id": "01G1W10G7MJ1K5N4S5A50M80QT",
+      "content": "進捗くんを更新する",
       "done": false
     }
   ]
