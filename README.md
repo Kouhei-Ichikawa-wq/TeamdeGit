@@ -23,5 +23,8 @@ npm install axios --save --force
 npm install react-router-dom --save --force
 
 <動かし方>
+＊gitから落とした直後は以下を行う
+npm install --force
+
 npm start
 json-server -w .\db.json -p 3001
